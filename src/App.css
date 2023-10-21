@@ -112,7 +112,7 @@ body{
 .social-media-container{
     display: flex;
     gap: 8px;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 .background-color-container select:focus{
