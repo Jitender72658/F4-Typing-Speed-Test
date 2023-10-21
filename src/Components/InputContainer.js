@@ -1,10 +1,11 @@
 import React from "react";
+import Placeholder from "../data/placeholderdata";
 
 const InputContainer = ()=>{
     return (
         <div className="input-container">
             <form>
-                  <input type="text" placeholder="Lorem ipsum" />
+                  <textarea type="text" placeholder={Placeholder} />
             </form>
              
         </div>
